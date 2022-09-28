@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cho-Scene2.unity
+    guid: a9d86fc4f9f1fa24ea7a9d0d17d71853
+  - enabled: 1
+    path: Assets/Scenes/ThemaVerse-1.unity
+    guid: 6b2798f21a80a17468d876528f031df4
   m_configObjects: {}
