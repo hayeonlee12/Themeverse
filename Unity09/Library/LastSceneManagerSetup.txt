@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ThemaVerse-1.unity
+- path: Assets/Scenes/Cho-Scene2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
