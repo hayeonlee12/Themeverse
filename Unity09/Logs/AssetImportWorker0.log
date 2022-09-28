@@ -4,26 +4,26 @@ OS: 'Windows 10 Home; OS build 22000.978; Version 2009; 64bit' Language: 'ko' Ph
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Hayeon/Documents/GitHub/Themeverse/Unity09
+C:/GitHub/Themeverse/Themeverse/Unity09
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52308
-Successfully changed project path to: C:/Users/Hayeon/Documents/GitHub/Themeverse/Unity09
-C:/Users/Hayeon/Documents/GitHub/Themeverse/Unity09
+49929
+Successfully changed project path to: C:/GitHub/Themeverse/Themeverse/Unity09
+C:/GitHub/Themeverse/Themeverse/Unity09
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.84 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 52.24 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Hayeon/Documents/GitHub/Themeverse/Unity09/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/Themeverse/Themeverse/Unity09/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -32,25 +32,23 @@ Direct3D:
     VRAM:     6023 MB
     Driver:   30.0.15.1278
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000761 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000812 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.10 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 51.34 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
+- Completed reload, in  0.616 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002580 seconds.
+Registered in 0.002905 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -72,36 +70,42 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
+- Completed reload, in  0.861 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3267 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 132.2 MB.
 System memory in use after: 132.4 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3722.
-Total: 7.130000 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.070200 ms MarkObjects: 6.817200 ms  DeleteObjects: 0.064700 ms)
+Total: 8.300900 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.070200 ms MarkObjects: 7.989300 ms  DeleteObjects: 0.057400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Cho-Scene2.unity
-  artifactKey: Guid(a9d86fc4f9f1fa24ea7a9d0d17d71853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cho-Scene2.unity using Guid(a9d86fc4f9f1fa24ea7a9d0d17d71853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef6b265a1478deae8a99536fddff85a') in 0.012481 seconds
-  Import took 0.015859 seconds .
+  path: Assets/Lee/Bullet/BulletMove.asset
+  artifactKey: Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Bullet/BulletMove.asset using Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a054dae936903d9caf874037fab5385') in 0.286504 seconds
+  Import took 0.291891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001513 seconds.
+  path: Assets/Lee/Bullet/BulletMove.asset
+  artifactKey: Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Bullet/BulletMove.asset using Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a054dae936903d9caf874037fab5385') in 0.006177 seconds
+  Import took 0.009828 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002285 seconds.
+Registered in 0.002053 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
@@ -121,34 +125,270 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.726 seconds
+- Completed reload, in  0.734 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 130.2 MB.
 System memory in use after: 130.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3726.
-Total: 6.574300 ms (FindLiveObjects: 0.170100 ms CreateObjectMapping: 0.071200 ms MarkObjects: 6.314800 ms  DeleteObjects: 0.017200 ms)
+Total: 6.526500 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.068500 ms MarkObjects: 6.289400 ms  DeleteObjects: 0.017600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.386120 seconds.
-  path: Assets/Scenes/ThemaVerse-1.unity
-  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a194f30ddf0da640ef79a1396a3c56f2') in 0.016027 seconds
-  Import took 0.019452 seconds .
+  Time since last request: 224.259297 seconds.
+  path: Assets/Scenes/Cho-Scene2.unity
+  artifactKey: Guid(a9d86fc4f9f1fa24ea7a9d0d17d71853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cho-Scene2.unity using Guid(a9d86fc4f9f1fa24ea7a9d0d17d71853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cb2bc9fe0d7721a7668331603b7cf4') in 0.028161 seconds
+  Import took 0.031841 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002671 seconds.
+Registered in 0.002385 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3730.
+Total: 7.435300 ms (FindLiveObjects: 0.198200 ms CreateObjectMapping: 0.073500 ms MarkObjects: 7.143800 ms  DeleteObjects: 0.018800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3734.
+Total: 7.174600 ms (FindLiveObjects: 0.164700 ms CreateObjectMapping: 0.070100 ms MarkObjects: 6.922900 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.002425 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dfcd140211afc306e8e8fde08e2b69') in 0.012867 seconds
+  Import took 0.016365 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3738.
+Total: 8.098800 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.090100 ms MarkObjects: 7.755300 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3742.
+Total: 6.777400 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.074300 ms MarkObjects: 6.502300 ms  DeleteObjects: 0.030000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.255560 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57059898429c426f58c99e52a485359') in 0.013296 seconds
+  Import took 0.017002 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3746.
+Total: 6.804300 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.065900 ms MarkObjects: 6.482700 ms  DeleteObjects: 0.017300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3750.
+Total: 7.077700 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.072200 ms MarkObjects: 6.815300 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
@@ -170,24 +410,22 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 Mono: successfully reloaded assembly
 - Completed reload, in  0.735 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.5 MB.
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3730.
-Total: 6.484300 ms (FindLiveObjects: 0.166200 ms CreateObjectMapping: 0.067400 ms MarkObjects: 6.234100 ms  DeleteObjects: 0.015800 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3754.
+Total: 7.329200 ms (FindLiveObjects: 0.200300 ms CreateObjectMapping: 0.066000 ms MarkObjects: 7.030100 ms  DeleteObjects: 0.031700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002277 seconds.
+Registered in 0.002221 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
@@ -207,26 +445,413 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
+- Completed reload, in  0.703 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.5 MB.
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3734.
-Total: 6.728800 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.073200 ms MarkObjects: 6.445800 ms  DeleteObjects: 0.015900 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3758.
+Total: 6.867800 ms (FindLiveObjects: 0.172400 ms CreateObjectMapping: 0.068400 ms MarkObjects: 6.609100 ms  DeleteObjects: 0.017000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002323 seconds.
+Registered in 0.002148 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Hayeon\Documents\GitHub\Themeverse\Unity09\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3762.
+Total: 7.623900 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.069700 ms MarkObjects: 7.356800 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002107 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3766.
+Total: 6.662300 ms (FindLiveObjects: 0.205000 ms CreateObjectMapping: 0.084600 ms MarkObjects: 6.354200 ms  DeleteObjects: 0.017300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3770.
+Total: 7.108700 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.075100 ms MarkObjects: 6.815700 ms  DeleteObjects: 0.019700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 320.776657 seconds.
+  path: Assets/Cho/DisneyWorld1.jpg
+  artifactKey: Guid(78d6df5764d7c124baba24b446c78b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cho/DisneyWorld1.jpg using Guid(78d6df5764d7c124baba24b446c78b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5977c59e576fe2e0e77c297ef0223d84') in 0.097259 seconds
+  Import took 0.102065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Cho/DisneyWorld2.jpg
+  artifactKey: Guid(4d7a3cf1ea012bf478d49c7ed59fa196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cho/DisneyWorld2.jpg using Guid(4d7a3cf1ea012bf478d49c7ed59fa196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c484065491a669131113edb2100ca2e') in 0.013498 seconds
+  Import took 0.016991 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3776.
+Total: 6.510800 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.060100 ms MarkObjects: 6.222100 ms  DeleteObjects: 0.014800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002154 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3780.
+Total: 6.603000 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.075600 ms MarkObjects: 6.331500 ms  DeleteObjects: 0.017900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3784.
+Total: 7.275600 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.071600 ms MarkObjects: 7.009500 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3788.
+Total: 6.696900 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.071500 ms MarkObjects: 6.430800 ms  DeleteObjects: 0.016800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002102 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3792.
+Total: 6.857500 ms (FindLiveObjects: 0.212300 ms CreateObjectMapping: 0.056300 ms MarkObjects: 6.571800 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.162439 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.081678 seconds
+  Import took 0.085587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfc51c5222557aa47c55c3d1b82acd') in 0.019485 seconds
+  Import took 0.023376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4f4f2da4d2ab57d901e0f40ae3f2f') in 0.033483 seconds
+  Import took 0.037148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.018054 seconds
+  Import took 0.021740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b7c8c3e3c9a45adbdca63c88707d17') in 0.022646 seconds
+  Import took 0.026280 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.8 MB.
+System memory in use after: 134.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3839.
+Total: 7.685100 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.077800 ms MarkObjects: 7.384200 ms  DeleteObjects: 0.019500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
@@ -248,13 +873,482 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 Mono: successfully reloaded assembly
 - Completed reload, in  0.723 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.8 MB.
+System memory in use after: 134.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3843.
+Total: 6.347000 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.063100 ms MarkObjects: 6.107100 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.685105 seconds.
+  path: Assets/Lee/Photozone/g.png
+  artifactKey: Guid(73486202e94f8f84ba9d2379b78b97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Photozone/g.png using Guid(73486202e94f8f84ba9d2379b78b97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1351a815f2475895eca99025ba52b695') in 0.037436 seconds
+  Import took 0.041291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Lee/Photozone/w.png
+  artifactKey: Guid(cf77431f7670b3748b47e9dd263679d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Photozone/w.png using Guid(cf77431f7670b3748b47e9dd263679d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13041351910a57f0de986850acc9a363') in 0.030770 seconds
+  Import took 0.034332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Lee/Photozone/metal.png
+  artifactKey: Guid(1c980dbfa0ae450489dd07f10be296b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Photozone/metal.png using Guid(1c980dbfa0ae450489dd07f10be296b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e7482dfb6ea1748785409fa7160c4e') in 0.011982 seconds
+  Import took 0.015758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Lee/Photozone/photozone land.fbx
+  artifactKey: Guid(3e6c0c470ce671c408983bbf0298a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Photozone/photozone land.fbx using Guid(3e6c0c470ce671c408983bbf0298a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9eec2f8fd13c8dc5c44392057ebb27') in 0.056691 seconds
+  Import took 0.060424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Lee/Photozone/photozone tree.fbx
+  artifactKey: Guid(32ecf65cebffd634cbba444c97476868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Photozone/photozone tree.fbx using Guid(32ecf65cebffd634cbba444c97476868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c9075310a83c5147d1be5212fc6931') in 0.014727 seconds
+  Import took 0.018356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Lee/Photozone/Photozone bench.fbx
+  artifactKey: Guid(62ebc28cfb206cb4db609e3b0efb625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Photozone/Photozone bench.fbx using Guid(62ebc28cfb206cb4db609e3b0efb625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e43588c34cbc86fc92161fdbb1bc1a') in 0.016482 seconds
+  Import took 0.020231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.288964 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5471c34323e7f407be5d48255a84b5fc') in 0.002221 seconds
+  Import took 0.005767 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3851.
+Total: 7.521900 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.079200 ms MarkObjects: 7.216500 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.693954 seconds.
+  path: Assets/Scenes/Cho-Scene2.unity
+  artifactKey: Guid(a9d86fc4f9f1fa24ea7a9d0d17d71853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cho-Scene2.unity using Guid(a9d86fc4f9f1fa24ea7a9d0d17d71853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0752aa62e28f6f6d028c783664eff454') in 0.012894 seconds
+  Import took 0.017391 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3855.
+Total: 8.772600 ms (FindLiveObjects: 0.210700 ms CreateObjectMapping: 0.066400 ms MarkObjects: 8.477200 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.491129 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3c4e90590ab0d0c0717946b8aee7cc') in 0.009183 seconds
+  Import took 0.012966 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.5 MB.
+System memory in use before: 134.0 MB.
+System memory in use after: 134.2 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3738.
-Total: 6.830200 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.070700 ms MarkObjects: 6.548300 ms  DeleteObjects: 0.014700 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3859.
+Total: 6.773700 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.072700 ms MarkObjects: 6.501600 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3863.
+Total: 7.016200 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.079000 ms MarkObjects: 6.732100 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.791522 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ecca61dec627a3a7097fa308cc3d52') in 0.007987 seconds
+  Import took 0.011332 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3867.
+Total: 7.803600 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.074900 ms MarkObjects: 7.507700 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 6.956700 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.076500 ms MarkObjects: 6.658800 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.182850 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3082f44b79b99c3c3b125d76fdb9a8') in 0.008281 seconds
+  Import took 0.011960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.687410 seconds.
+  path: Assets/Cho/Materials/bg-img1.jpeg
+  artifactKey: Guid(63970e965d034394da90e7e50931a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cho/Materials/bg-img1.jpeg using Guid(63970e965d034394da90e7e50931a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b776252e4be075b6ba82089a0bc25a') in 0.023038 seconds
+  Import took 0.027232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15770c780ebad2127a7dba05b3837a4c') in 0.012186 seconds
+  Import took 0.015979 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3875.
+Total: 6.976100 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.089700 ms MarkObjects: 6.694600 ms  DeleteObjects: 0.016700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.332523 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2013e24f6cdbbba870f7060e4715fefb') in 0.008054 seconds
+  Import took 0.011967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.451582 seconds.
+  path: Assets/Lee/Bullet/BulletMove.asset
+  artifactKey: Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Bullet/BulletMove.asset using Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed6a106660ce68bba451d1fdca92a02') in 0.259202 seconds
+  Import took 0.263124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005064 seconds.
+  path: Assets/Lee/Bullet/BulletMove.asset
+  artifactKey: Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lee/Bullet/BulletMove.asset using Guid(29f79e8c9e76eb04594bd0979bdcb386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed6a106660ce68bba451d1fdca92a02') in 0.003822 seconds
+  Import took 0.007462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.153592 seconds.
+  path: Assets/Scenes/ThemaVerse-1.unity
+  artifactKey: Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ThemaVerse-1.unity using Guid(6b2798f21a80a17468d876528f031df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b6dfcb8faeaea9500545ae27b4238d') in 0.003067 seconds
+  Import took 0.007281 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3879.
+Total: 7.564900 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 7.287500 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <33621b8e9a144df2836f018deae7a1c1>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <33621b8e9a144df2836f018deae7a1c1>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3883.
+Total: 6.894300 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.077700 ms MarkObjects: 6.569700 ms  DeleteObjects: 0.031500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
